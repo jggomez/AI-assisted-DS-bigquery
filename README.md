@@ -10,7 +10,7 @@ Unlike traditional ML approaches, this lab demonstrates how to integrate Large L
 
 By completing this lab, you will be able to:
 
-  * **Orchestrate Remote Models:** Configure secure connections between BigQuery and Vertex AI models (Gemini 1.5 Flash).
+  * **Orchestrate Remote Models:** Configure secure connections between BigQuery and Vertex AI models (Gemini 2.5 Flash).
   * **Multimodal Feature Engineering:** Extract visual features from images (e.g., "near water," "number of windows") using standard SQL.
   * **Advanced Clustering:** Train K-Means models in BigQuery and integrate results with the Vertex AI Model Registry.
   * **GenAI Interpretation:** Automate the creation of buyer personas and market summaries using AI Agents.
@@ -23,7 +23,7 @@ By completing this lab, you will be able to:
 | Component | Function |
 | :--- | :--- |
 | **BigQuery Studio** | Collaborative notebook environment (SQL + Python). |
-| **Gemini 1.5 Flash** | Feature extraction and natural language narrative generation. |
+| **Gemini 2.5 Flash** | Feature extraction and natural language narrative generation. |
 | **Vertex AI SDK** | Orchestration of embedding models and agentic workflows. |
 | **BigQuery ML (BQML)** | In-warehouse K-Means clustering model training. |
 | **Vector Search** | Indexing and cosine similarity search for high-dimensional data. |
