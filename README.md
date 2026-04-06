@@ -45,7 +45,7 @@ The workshop is organized into sequential modules. Each directory contains a spe
 
 -----
 
-## 🚀 Getting Started
+## Getting Started
 
 1.  Clone this repository.
 2.  Follow the instructions in **Step 1** to prepare your Google Cloud environment.
