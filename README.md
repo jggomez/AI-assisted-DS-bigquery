@@ -30,17 +30,18 @@ By completing this lab, you will be able to:
 
 -----
 
-## 📂 Repository Structure
+## Repository Structure
 
-The workshop is organized into the following logical steps:
+The workshop is organized into sequential modules. Each directory contains a specific `README.md` with detailed technical instructions and code snippets:
 
-1.  **[Step 1: Provisioning](https://www.google.com/search?q=./docs/step1.md):** GCP project setup and API configuration.
-2.  **[Step 2: Environment](https://www.google.com/search?q=./docs/step2.md):** Importing the notebook into BigQuery Studio.
-3.  **[Step 3: Enrichment](https://www.google.com/search?q=./docs/step3.md):** Feature engineering using Gemini to "read" visual assets.
-4.  **[Step 4: Modeling](https://www.google.com/search?q=./docs/step4.md):** Building and evaluating the clustering model.
-5.  **[Step 5: Interpretation](https://www.google.com/search?q=./docs/step5.md):** Generating business insights with Generative AI.
-6.  **[Step 6: Agentic DS](https://www.google.com/search?q=./docs/step6.md):** Automating the pipeline via the Data Science Agent.
-7.  **[Step 7: Vector Search](https://www.google.com/search?q=./docs/step7.md):** Implementing multimodal semantic search.
+* **01-GCP-Configuration:** Initial project provisioning, billing setup, and API enablement (BigQuery, Vertex AI, Gemini).
+* **02-notebook-bigquery:** Setup of the BigQuery Studio environment and importing the foundational Colab Enterprise notebook.
+* **03-Feature-Engineering:** Data cleaning and multimodal enrichment using Gemini 1.5 Flash to extract features from property images via SQL.
+* **04-k-means-model:** Training and evaluating an unsupervised K-Means clustering model directly in BigQuery ML with Vertex AI Model Registry integration.
+* **05-cluster-gemini:** Using Generative AI to transform abstract cluster statistics into professional real estate market descriptions.
+* **06-data-science-agent:** Exploring "Agentic Data Science" by using natural language prompts to automate Python-based modeling and visualization.
+* **07-multimodal-search:** Implementing semantic and visual search using multimodal embeddings and BigQuery Vector Search.
+* **08-cleaning:** Best practices for resource governance and environment cleanup to ensure a responsible AI lifecycle.
 
 -----
 
